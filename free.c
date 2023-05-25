@@ -1,9 +1,9 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * free_array - frees an array and its components
- * @array: the array
- * @size: the size of the array
+ * @array: description
+ * @size: description
  */
 
 void free_array(char **array, int size)
@@ -17,7 +17,7 @@ void free_array(char **array, int size)
 
 /**
  * free_null_terminated_array - frees an array and its components
- * @array: the array
+ * @array: description
  */
 
 void free_null_terminated_array(char **array)
@@ -35,7 +35,7 @@ void free_null_terminated_array(char **array)
 
 /**
  * free_env - free environment
- * Return: void
+ * Return: description
  */
 
 void free_env(void)

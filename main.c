@@ -1,9 +1,9 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * main - entry point
- * @argc: number of arguments
- * @argv: arguments
+ * @argc: description
+ * @argv: description
  * Return: 0
  */
 

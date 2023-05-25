@@ -1,10 +1,10 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * cmd_handle - handles command
- * @cmd_args: command arguments
- * @main_argv: main arguments
- * @last_exit_status: last exit status
+ * @cmd_args: description
+ * @main_argv: description
+ * @last_exit_status: description
  * Return: 0
  */
 int cmd_handle(char **cmd_args, char **main_argv, int last_exit_status)
@@ -49,9 +49,9 @@ int cmd_handle(char **cmd_args, char **main_argv, int last_exit_status)
 
 /**
  * launch_process - execute command
- * @command: command
- * @name: name of program
- * Return: Exit code of the child process
+ * @command: description
+ * @name: description
+ * Return: description
  */
 int launch_process(char **command, char *name)
 {

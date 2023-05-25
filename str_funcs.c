@@ -1,9 +1,9 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * _strdup - duplicates a string
- * @str: the string to be duplicated
- * Return: pointer to the new string if successful and NULL if failed
+ * @str: description
+ * Return: description
  */
 char *_strdup(const char *str)
 {
@@ -27,10 +27,8 @@ char *_strdup(const char *str)
 }
 /**
  * _strlen - returns the length of a string
- *
- * @s: string parameter input
- *
- * Return: length of string
+ * @s: description
+ * Return: description
  */
 
 size_t _strlen(const char *s)
@@ -52,11 +50,9 @@ size_t _strlen(const char *s)
 /**
  * _strcpy - copies a string from one pointer to another
  *	including the terminating null byte (\0)
- *
- * @src: source of string parameter input
- * @dest: destination of string
- *
- * Return: pointer to dest input parameter
+ * @src: description
+ * @dest: description
+ * Return: description
  */
 
 char *_strcpy(char *dest, const char *src)
@@ -77,11 +73,9 @@ char *_strcpy(char *dest, const char *src)
 /**
  * _strcat - function that concatenates
  *          two strings.
- *
- * @destination: pointer to destination input
- * @source: pointer to source input
- *
- * Return: pointer to resulting string @dest
+ * @destination: description
+ * @source: description
+ * Return: description
  */
 
 char *_strcat(char *destination, char *source)
@@ -106,11 +100,10 @@ char *_strcat(char *destination, char *source)
 }
 /**
  * _strncmp - compares two strings up to n characters
- * @s1: the first string
- * @s2: the second string
- * @n: number of characters to compare
- *
- * Return: the difference
+ * @s1: description
+ * @s2: description
+ * @n: description
+ * Return: description
  */
 
 int _strncmp(char *s1, char *s2, size_t n)

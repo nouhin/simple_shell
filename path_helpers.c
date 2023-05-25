@@ -1,10 +1,10 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * build_cmd_path - builds the full path of a command
- * @dir: directory
- * @cmd: command
- * Return: full path
+ * @dir: description
+ * @cmd: description
+ * Return: description
  */
 char *build_cmd_path(char *dir, char *cmd)
 {
@@ -22,8 +22,8 @@ char *build_cmd_path(char *dir, char *cmd)
 }
 /**
  * get_path_directories - gets the directories in the PATH variable
- * @path_env: PATH variable
- * Return: array of directories
+ * @path_env: description
+ * Return: description
  */
 
 char **get_path_directories(char *path_env)
@@ -38,8 +38,8 @@ char **get_path_directories(char *path_env)
 }
 /**
  * get_full_path - gets the full path of a command
- * @cmd: command
- * Return: full path
+ * @cmd: description
+ * Return: description
  */
 char *get_full_path(char *cmd)
 {
@@ -69,8 +69,8 @@ char *get_full_path(char *cmd)
 }
 /**
  * _getenv - gives the value of a variable
- * @name: name of the variable
- * Return: the value of the variable
+ * @name: description
+ * Return: description
  */
 
 char *_getenv(char *name)

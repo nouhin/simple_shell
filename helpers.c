@@ -1,8 +1,8 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  * _get_input - get line from stdin
- * Return: line
+ * Return: description
  *
  */
 char *_get_input(void)
@@ -27,9 +27,9 @@ char *_get_input(void)
 
 /**
  * _get_tokens - format line
- * @line: line
- * @delimiters: delimiters
- * Return: command
+ * @line: description
+ * @delimiters: description
+ * Return: description
  *
  */
 
@@ -68,9 +68,9 @@ char **_get_tokens(char *line, const char *delimiters)
 
 /**
  * count_tokens - count tokens
- * @line: line
- * @delimiter: delimiter
- * Return: count
+ * @line: description
+ * @delimiter: description
+ * Return: description
  */
 int count_tokens(char *line, const char *delimiter)
 {
@@ -89,7 +89,7 @@ int count_tokens(char *line, const char *delimiter)
 }
 /**
  * handler_function - handle SIGINT signal
- * @sig : signal
+ * @sig : description
  */
 void handler_function(int sig)
 {

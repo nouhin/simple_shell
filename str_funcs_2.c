@@ -1,10 +1,10 @@
-#include "shell.h"
+#include "main.h"
 #include <stdbool.h>
 
 /**
  * is_valid_number - checks if a string is a valid number
- * @string: the string to be converted
- * Return: the integer value of the converted string
+ * @string: description
+ * Return: description
  */
 
 int is_valid_number(char *string)
@@ -34,10 +34,10 @@ int is_valid_number(char *string)
 
 /**
  * _strcmp - compares to strings
- * @s1: the first string
- * @s2: the second string
+ * @s1: description
+ * @s2: description
  *
- * Return: the difference
+ * Return: description
  */
 int _strcmp(char *s1, char *s2)
 {
